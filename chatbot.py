@@ -5,7 +5,7 @@ from langchain.chains import ConversationChain
 from langchain.memory import ConversationBufferMemory
 
 # 🔑 Put your Gemini API key here
-os.environ["GOOGLE_API_KEY"] = "AIzaSyA_CpFs-9MfsTk97VRCGLoChidPZWdj2cs"
+os.environ["GOOGLE_API_KEY"] = "A___XXXXX"
 
 # 🌟 Initialize Gemini model
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
@@ -36,3 +36,4 @@ if user_input := st.chat_input("Ask me anything..."):
 
     with st.chat_message("assistant"):
         st.markdown(response)
+
