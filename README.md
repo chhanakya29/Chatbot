@@ -27,7 +27,7 @@ Follow these steps to get started:
 
 1. Clone the Repository
 ```bash
-git clone https://github.com/YOUR_USERNAME/Gemini-Chatbot.git
+git clone https://github.com/chhanakya29/Chatbot.git
 cd Gemini-Chatbot
 2. Install Dependencies:
   pip install -r requirements.txt
